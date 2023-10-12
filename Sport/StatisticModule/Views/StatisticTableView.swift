@@ -16,7 +16,7 @@ class StatisticTableView: UITableView {
         
         configure()
         setDelegates()
-        register(StatisticTableView.self, forCellReuseIdentifier: idStatisticTableViewCell)
+        register(StatisticTableViewCell.self, forCellReuseIdentifier: idStatisticTableViewCell)
     }
     
     required init?(coder: NSCoder) {

@@ -48,7 +48,7 @@ class StatisticViewController: UIViewController {
                 statisticLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
                 statisticLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                 
-                exercisesLabel.topAnchor.constraint(equalTo: statisticLabel.bottomAnchor, constant: 100),
+                exercisesLabel.topAnchor.constraint(equalTo: statisticLabel.bottomAnchor, constant: 10),
                 exercisesLabel.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 20),
                 exercisesLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
                 
