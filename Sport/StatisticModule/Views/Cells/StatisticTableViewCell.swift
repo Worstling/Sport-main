@@ -74,7 +74,7 @@ extension StatisticTableViewCell {
             differenceLabel.widthAnchor.constraint(equalToConstant: 50),
             
             nameLabel.topAnchor.constraint(equalTo: topAnchor, constant: 5),
-            nameLabel.leadingAnchor.constraint(equalTo: leftAnchor, constant: 20),
+            nameLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
             nameLabel.trailingAnchor.constraint(equalTo: differenceLabel.leadingAnchor, constant: -20),
             
             stackView.topAnchor.constraint(equalTo: nameLabel.bottomAnchor, constant: 0),
